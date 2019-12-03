@@ -1,0 +1,6 @@
+framework module Pods_serviceLearningTests {
+  umbrella header "Pods-serviceLearningTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

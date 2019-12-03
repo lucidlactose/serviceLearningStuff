@@ -1,0 +1,1051 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0572DA19D4ABE9156AB92D296B2E9A2F /* Pods-serviceLearning-serviceLearningUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 399F7873150F1F09B87C96B6DDCEACC0 /* Pods-serviceLearning-serviceLearningUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		102BD5D98CB13D3A2E9B25534EC1FAFD /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6C6CB6FF83BD81F504B5E5B172E710 /* Date+Extension.swift */; };
+		16BA0B74C491099680AD6262DFFE300F /* MonthCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69362A9691796959CBAC6D23946B4728 /* MonthCollectionViewCell.swift */; };
+		201DF9CD39797CFA764621028670265E /* AllDayEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16AE696F9F2923DAC128313861E2096 /* AllDayEventView.swift */; };
+		22937E74E4AA9BB7CD09FDBF9AE13643 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		25B827E6BD1B76FE7B9937634DB58705 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		26C4DBB20B57D76E5ECF975D9E2621E8 /* Pods-serviceLearning-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA91DCCD1ED9E6824B13BBDACB0BA81 /* Pods-serviceLearning-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288787D082A539320E6986077D7F17B5 /* TimelineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1064564064B51E0D199788E4E0A77B06 /* TimelineLabel.swift */; };
+		3D40ADE789A61424C72DB9A858D46869 /* Pods-serviceLearningTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 242759719CE234670F68FEC15BBE7FB9 /* Pods-serviceLearningTests-dummy.m */; };
+		45E9B7BBD9B14661523EAA3EE80B811A /* YearViewCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15911754D9181750B9F280A3F991575 /* YearViewCalendar.swift */; };
+		4EA62531A8304D0EBD6485A75C64E205 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5077B36411EF3B34A7366A97ED70FE7F /* WeekData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301D957BFC833274E919F54A5C8FF416 /* WeekData.swift */; };
+		59596AF3755EFA6C1C07311234635D30 /* MonthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE549C482FE76E930AC04D455E77DB0 /* MonthData.swift */; };
+		5FF04B0165B6903D699F7F19FEF1E0FD /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F155C46AB7574D918203358FB2E08B /* TimelineView.swift */; };
+		69525F456C33A7CF74CF015D830DC82E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6955B7EDCCD3AF2764ED80BE23E2C94E /* WeekViewCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0BAA3CBBD267A1A4931F1CA25B777 /* WeekViewCalendar.swift */; };
+		72639E29B003A63060B2968FCEEED60E /* ScrollDayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA7257CC612808F5F31E985C46B20C /* ScrollDayHeaderView.swift */; };
+		75DC0710C3C2E2F96018FA804DE77C88 /* YearCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ABFFF829B7F24C1B87255B9522392E /* YearCollectionViewCell.swift */; };
+		78702920DF680A5C15500A0B3764A737 /* Pods-serviceLearningTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC1A0651EE236D3E6552D09101BE9AD0 /* Pods-serviceLearningTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D3817CBE91BDC372D7CD49301A7CB88 /* DayViewCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E2027D05F52E067D77036F4E4677 /* DayViewCalendar.swift */; };
+		87D3B121D7ED8EF5646CD51E363D21E0 /* DayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC68E74CF3F709497B48CEB0574C8F /* DayData.swift */; };
+		ABA1D42F31D30FA0E3AEF85871468D20 /* MonthViewCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F168A0D14B260521DD8E1DF4DDE3B6 /* MonthViewCalendar.swift */; };
+		B08A757758278DDD298B13C9691D4821 /* ScrollHeaderDayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D791B5921D8B6BACAE209F7CDD82BA9 /* ScrollHeaderDayCollectionViewCell.swift */; };
+		B44B02C5E38C0303B0B78B4C07A8DE2E /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF26BB49DAC87674C88BB2EC7C9B16 /* Style.swift */; };
+		BCCC843EE8F8F40A1B8BDBE2910B71E6 /* Pods-serviceLearning-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE308726E1F98F4C95CAF016E9A5760 /* Pods-serviceLearning-dummy.m */; };
+		BDFC91D6CC4D87A97D8CE370307C420B /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DC94CA7F24E903EB85AB6C58D60F57 /* CalendarView.swift */; };
+		C00A2C8A90BEC0B888B623B0B7D41EEC /* KVKCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8771BF517DD11C705D164F53AA8B5D /* KVKCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4BC029C181474D7E044438EE40B34C7 /* YearData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE191285B810704E43B50213E401D20 /* YearData.swift */; };
+		C7D6CA4B206C549F3B4C6C44F26B9BBB /* KVKCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6029C92796A13FEB557BBF79FBFFE5B0 /* KVKCalendar-dummy.m */; };
+		D3ED917A314D581C6C47093C090B5D98 /* Pods-serviceLearning-serviceLearningUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18777E88C92227C5FECF04F6E1357B10 /* Pods-serviceLearning-serviceLearningUITests-dummy.m */; };
+		D6E7C024AFB03C863BE3DB42B98C9B11 /* EventPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC49199A6F7C408D9DD09E4517A49E4 /* EventPageView.swift */; };
+		DF2680AD0DDF5BDFDAA4C1331AE8A198 /* WeekHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C7BA5F6D200DE754F5CAD3932B2EA /* WeekHeaderView.swift */; };
+		E5AB6B18086CE4068CE2EB914AAC2424 /* YearHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8236F31C8876DA6E9AAA56A343162A72 /* YearHeaderView.swift */; };
+		F497F7388E31145CBF6B4DC15941F8FF /* Calendar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2101D9C47872BE21B86BD30EF8DD4B /* Calendar+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E3B5B3D88A3909B4523376326E7034D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C8627CB6D8E7BCF51A7504F548575BC;
+			remoteInfo = KVKCalendar;
+		};
+		4D473B457F7BDE01028FA8A313D979EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C8627CB6D8E7BCF51A7504F548575BC;
+			remoteInfo = KVKCalendar;
+		};
+		59416A5555104E37BC730E74AFA509BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13C3808B3A7A145E13C7CFA25E552BA1;
+			remoteInfo = "Pods-serviceLearning";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0950A2F12127E3470496C740EC8D32F6 /* Pods-serviceLearning-serviceLearningUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-serviceLearning-serviceLearningUITests.modulemap"; sourceTree = "<group>"; };
+		09EDFF622250152A66BD1255296BD2FD /* Pods-serviceLearning-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-serviceLearning-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A3BF8FA03B96FD5BCBA4392E152297B /* Pods-serviceLearning-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-serviceLearning-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C603C8A42AC8253A4B2C92468CB3E12 /* Pods_serviceLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_serviceLearning.framework; path = "Pods-serviceLearning.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D791B5921D8B6BACAE209F7CDD82BA9 /* ScrollHeaderDayCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollHeaderDayCollectionViewCell.swift; path = KVKCalendar/Classes/ScrollHeaderDayCollectionViewCell.swift; sourceTree = "<group>"; };
+		1064564064B51E0D199788E4E0A77B06 /* TimelineLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimelineLabel.swift; path = KVKCalendar/Classes/TimelineLabel.swift; sourceTree = "<group>"; };
+		18777E88C92227C5FECF04F6E1357B10 /* Pods-serviceLearning-serviceLearningUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-serviceLearning-serviceLearningUITests-dummy.m"; sourceTree = "<group>"; };
+		1B98EF9C8ED1D9096AF2A3EFAA207688 /* Pods-serviceLearningTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-serviceLearningTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		217AEBE7AB3061E0904399D34AAFBFB4 /* Pods-serviceLearningTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-serviceLearningTests.modulemap"; sourceTree = "<group>"; };
+		220169BEA61920592870F41657BA09C9 /* Pods-serviceLearning-serviceLearningUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-serviceLearning-serviceLearningUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		242759719CE234670F68FEC15BBE7FB9 /* Pods-serviceLearningTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-serviceLearningTests-dummy.m"; sourceTree = "<group>"; };
+		2A3A46C2DB5D47E6D688892979B100CA /* Pods-serviceLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-serviceLearning.release.xcconfig"; sourceTree = "<group>"; };
+		2ADC68E74CF3F709497B48CEB0574C8F /* DayData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayData.swift; path = KVKCalendar/Classes/DayData.swift; sourceTree = "<group>"; };
+		2CE549C482FE76E930AC04D455E77DB0 /* MonthData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthData.swift; path = KVKCalendar/Classes/MonthData.swift; sourceTree = "<group>"; };
+		2DCA7257CC612808F5F31E985C46B20C /* ScrollDayHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollDayHeaderView.swift; path = KVKCalendar/Classes/ScrollDayHeaderView.swift; sourceTree = "<group>"; };
+		2EA91DCCD1ED9E6824B13BBDACB0BA81 /* Pods-serviceLearning-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-serviceLearning-umbrella.h"; sourceTree = "<group>"; };
+		301D957BFC833274E919F54A5C8FF416 /* WeekData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeekData.swift; path = KVKCalendar/Classes/WeekData.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		399F7873150F1F09B87C96B6DDCEACC0 /* Pods-serviceLearning-serviceLearningUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-serviceLearning-serviceLearningUITests-umbrella.h"; sourceTree = "<group>"; };
+		3CDA0C5341B1E6651DEDB95FB2826E5A /* KVKCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KVKCalendar.framework; path = KVKCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA43664BDCC313F12D58EC05440E464 /* KVKCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVKCalendar.xcconfig; sourceTree = "<group>"; };
+		3DD2BFD3E259522059724AA2151C8B71 /* Pods-serviceLearning-serviceLearningUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-serviceLearning-serviceLearningUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40481A701F9EEE96AAEFA547707A1F3F /* Pods-serviceLearning.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-serviceLearning.modulemap"; sourceTree = "<group>"; };
+		45F155C46AB7574D918203358FB2E08B /* TimelineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimelineView.swift; path = KVKCalendar/Classes/TimelineView.swift; sourceTree = "<group>"; };
+		49A06A2D424037C430C00415CF6A5E77 /* Pods-serviceLearning-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-serviceLearning-Info.plist"; sourceTree = "<group>"; };
+		49ABFFF829B7F24C1B87255B9522392E /* YearCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YearCollectionViewCell.swift; path = KVKCalendar/Classes/YearCollectionViewCell.swift; sourceTree = "<group>"; };
+		4A8FBFB02469D38BF9B69ACB665DCEEB /* Pods-serviceLearningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-serviceLearningTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EE191285B810704E43B50213E401D20 /* YearData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YearData.swift; path = KVKCalendar/Classes/YearData.swift; sourceTree = "<group>"; };
+		6029C92796A13FEB557BBF79FBFFE5B0 /* KVKCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVKCalendar-dummy.m"; sourceTree = "<group>"; };
+		6354EEB0A0EE7DCF4AFBB270D411B69D /* Pods-serviceLearning-serviceLearningUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-serviceLearning-serviceLearningUITests-frameworks.sh"; sourceTree = "<group>"; };
+		66F168A0D14B260521DD8E1DF4DDE3B6 /* MonthViewCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthViewCalendar.swift; path = KVKCalendar/Classes/MonthViewCalendar.swift; sourceTree = "<group>"; };
+		69362A9691796959CBAC6D23946B4728 /* MonthCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthCollectionViewCell.swift; path = KVKCalendar/Classes/MonthCollectionViewCell.swift; sourceTree = "<group>"; };
+		74715B4E710C67427A047C01347BCD9B /* Pods_serviceLearning_serviceLearningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_serviceLearning_serviceLearningUITests.framework; path = "Pods-serviceLearning-serviceLearningUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF679EA2EB9473A86E8014C6194FC0F /* Pods-serviceLearning-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-serviceLearning-frameworks.sh"; sourceTree = "<group>"; };
+		8236F31C8876DA6E9AAA56A343162A72 /* YearHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YearHeaderView.swift; path = KVKCalendar/Classes/YearHeaderView.swift; sourceTree = "<group>"; };
+		9047410A92F7605FFB6270DE012EB7D2 /* Pods-serviceLearning-serviceLearningUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-serviceLearning-serviceLearningUITests-Info.plist"; sourceTree = "<group>"; };
+		96D0BAA3CBBD267A1A4931F1CA25B777 /* WeekViewCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeekViewCalendar.swift; path = KVKCalendar/Classes/WeekViewCalendar.swift; sourceTree = "<group>"; };
+		981E740B0324BE94F34051444FD7BEBC /* Pods-serviceLearningTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-serviceLearningTests-Info.plist"; sourceTree = "<group>"; };
+		99A05E81B8BBD9C909BEAE5603A2098C /* Pods-serviceLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-serviceLearning.debug.xcconfig"; sourceTree = "<group>"; };
+		9CA5229605CF649B53946D1EC884F912 /* Pods-serviceLearningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-serviceLearningTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE308726E1F98F4C95CAF016E9A5760 /* Pods-serviceLearning-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-serviceLearning-dummy.m"; sourceTree = "<group>"; };
+		9F34298FD5EFB811D0F0D2607C96222D /* Pods_serviceLearningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_serviceLearningTests.framework; path = "Pods-serviceLearningTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16AE696F9F2923DAC128313861E2096 /* AllDayEventView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllDayEventView.swift; path = KVKCalendar/Classes/AllDayEventView.swift; sourceTree = "<group>"; };
+		A4DC94CA7F24E903EB85AB6C58D60F57 /* CalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarView.swift; path = KVKCalendar/Classes/CalendarView.swift; sourceTree = "<group>"; };
+		A7CE3BE78A012B0C16B99E7132EDAB66 /* Pods-serviceLearning-serviceLearningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-serviceLearning-serviceLearningUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA87C4C248A550CC6433DB29DFB62E1B /* KVKCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KVKCalendar.modulemap; sourceTree = "<group>"; };
+		AB2101D9C47872BE21B86BD30EF8DD4B /* Calendar+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Calendar+Extension.swift"; path = "KVKCalendar/Classes/Calendar+Extension.swift"; sourceTree = "<group>"; };
+		AF6C6CB6FF83BD81F504B5E5B172E710 /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Extension.swift"; path = "KVKCalendar/Classes/Date+Extension.swift"; sourceTree = "<group>"; };
+		B0AF26BB49DAC87674C88BB2EC7C9B16 /* Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Style.swift; path = KVKCalendar/Classes/Style.swift; sourceTree = "<group>"; };
+		B0E2108A1AC4538D09987B7EB9EF4330 /* Pods-serviceLearningTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-serviceLearningTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B15911754D9181750B9F280A3F991575 /* YearViewCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YearViewCalendar.swift; path = KVKCalendar/Classes/YearViewCalendar.swift; sourceTree = "<group>"; };
+		BCC49199A6F7C408D9DD09E4517A49E4 /* EventPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventPageView.swift; path = KVKCalendar/Classes/EventPageView.swift; sourceTree = "<group>"; };
+		BF8771BF517DD11C705D164F53AA8B5D /* KVKCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVKCalendar-umbrella.h"; sourceTree = "<group>"; };
+		C1B5B7E0F2964798B1A4FBC6FE114FA8 /* KVKCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KVKCalendar-Info.plist"; sourceTree = "<group>"; };
+		D05C7BA5F6D200DE754F5CAD3932B2EA /* WeekHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeekHeaderView.swift; path = KVKCalendar/Classes/WeekHeaderView.swift; sourceTree = "<group>"; };
+		D6C8715EB3E1904D9C8DC94202C98095 /* KVKCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVKCalendar-prefix.pch"; sourceTree = "<group>"; };
+		EAC5E2027D05F52E067D77036F4E4677 /* DayViewCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayViewCalendar.swift; path = KVKCalendar/Classes/DayViewCalendar.swift; sourceTree = "<group>"; };
+		F01C05EC53F602717A0C32072EA92699 /* Pods-serviceLearning-serviceLearningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-serviceLearning-serviceLearningUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC1A0651EE236D3E6552D09101BE9AD0 /* Pods-serviceLearningTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-serviceLearningTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07E3C7A35C8B3B4EFFB67E1A5FAF959F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69525F456C33A7CF74CF015D830DC82E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A6C84FC6645975309C824A8E2E99878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA62531A8304D0EBD6485A75C64E205 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73CE62DB1CD3F021D2081CD28043946B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B827E6BD1B76FE7B9937634DB58705 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47D55FF39584DF943BFA2F824B0E68B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22937E74E4AA9BB7CD09FDBF9AE13643 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB9AA751B82CD3ED90FDFEA5AE784E5 /* KVKCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				A16AE696F9F2923DAC128313861E2096 /* AllDayEventView.swift */,
+				AB2101D9C47872BE21B86BD30EF8DD4B /* Calendar+Extension.swift */,
+				A4DC94CA7F24E903EB85AB6C58D60F57 /* CalendarView.swift */,
+				AF6C6CB6FF83BD81F504B5E5B172E710 /* Date+Extension.swift */,
+				2ADC68E74CF3F709497B48CEB0574C8F /* DayData.swift */,
+				EAC5E2027D05F52E067D77036F4E4677 /* DayViewCalendar.swift */,
+				BCC49199A6F7C408D9DD09E4517A49E4 /* EventPageView.swift */,
+				69362A9691796959CBAC6D23946B4728 /* MonthCollectionViewCell.swift */,
+				2CE549C482FE76E930AC04D455E77DB0 /* MonthData.swift */,
+				66F168A0D14B260521DD8E1DF4DDE3B6 /* MonthViewCalendar.swift */,
+				2DCA7257CC612808F5F31E985C46B20C /* ScrollDayHeaderView.swift */,
+				0D791B5921D8B6BACAE209F7CDD82BA9 /* ScrollHeaderDayCollectionViewCell.swift */,
+				B0AF26BB49DAC87674C88BB2EC7C9B16 /* Style.swift */,
+				1064564064B51E0D199788E4E0A77B06 /* TimelineLabel.swift */,
+				45F155C46AB7574D918203358FB2E08B /* TimelineView.swift */,
+				301D957BFC833274E919F54A5C8FF416 /* WeekData.swift */,
+				D05C7BA5F6D200DE754F5CAD3932B2EA /* WeekHeaderView.swift */,
+				96D0BAA3CBBD267A1A4931F1CA25B777 /* WeekViewCalendar.swift */,
+				49ABFFF829B7F24C1B87255B9522392E /* YearCollectionViewCell.swift */,
+				5EE191285B810704E43B50213E401D20 /* YearData.swift */,
+				8236F31C8876DA6E9AAA56A343162A72 /* YearHeaderView.swift */,
+				B15911754D9181750B9F280A3F991575 /* YearViewCalendar.swift */,
+				B581B86E96333061307D14D15325712C /* Support Files */,
+			);
+			name = KVKCalendar;
+			path = KVKCalendar;
+			sourceTree = "<group>";
+		};
+		3BFFDBF9119D837BE4923AEC64279A43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AB9AA751B82CD3ED90FDFEA5AE784E5 /* KVKCalendar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4DE248970C8B341189CCA1A369D954F0 /* Pods-serviceLearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				217AEBE7AB3061E0904399D34AAFBFB4 /* Pods-serviceLearningTests.modulemap */,
+				1B98EF9C8ED1D9096AF2A3EFAA207688 /* Pods-serviceLearningTests-acknowledgements.markdown */,
+				B0E2108A1AC4538D09987B7EB9EF4330 /* Pods-serviceLearningTests-acknowledgements.plist */,
+				242759719CE234670F68FEC15BBE7FB9 /* Pods-serviceLearningTests-dummy.m */,
+				981E740B0324BE94F34051444FD7BEBC /* Pods-serviceLearningTests-Info.plist */,
+				FC1A0651EE236D3E6552D09101BE9AD0 /* Pods-serviceLearningTests-umbrella.h */,
+				4A8FBFB02469D38BF9B69ACB665DCEEB /* Pods-serviceLearningTests.debug.xcconfig */,
+				9CA5229605CF649B53946D1EC884F912 /* Pods-serviceLearningTests.release.xcconfig */,
+			);
+			name = "Pods-serviceLearningTests";
+			path = "Target Support Files/Pods-serviceLearningTests";
+			sourceTree = "<group>";
+		};
+		6FC8AA465400D790986F3A85A62A93B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C29642B59A4F32F42975E01D6EC4F050 /* Pods-serviceLearning */,
+				AF73BFC963AA7D19A938D6D877E6BACD /* Pods-serviceLearning-serviceLearningUITests */,
+				4DE248970C8B341189CCA1A369D954F0 /* Pods-serviceLearningTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AF73BFC963AA7D19A938D6D877E6BACD /* Pods-serviceLearning-serviceLearningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0950A2F12127E3470496C740EC8D32F6 /* Pods-serviceLearning-serviceLearningUITests.modulemap */,
+				3DD2BFD3E259522059724AA2151C8B71 /* Pods-serviceLearning-serviceLearningUITests-acknowledgements.markdown */,
+				220169BEA61920592870F41657BA09C9 /* Pods-serviceLearning-serviceLearningUITests-acknowledgements.plist */,
+				18777E88C92227C5FECF04F6E1357B10 /* Pods-serviceLearning-serviceLearningUITests-dummy.m */,
+				6354EEB0A0EE7DCF4AFBB270D411B69D /* Pods-serviceLearning-serviceLearningUITests-frameworks.sh */,
+				9047410A92F7605FFB6270DE012EB7D2 /* Pods-serviceLearning-serviceLearningUITests-Info.plist */,
+				399F7873150F1F09B87C96B6DDCEACC0 /* Pods-serviceLearning-serviceLearningUITests-umbrella.h */,
+				A7CE3BE78A012B0C16B99E7132EDAB66 /* Pods-serviceLearning-serviceLearningUITests.debug.xcconfig */,
+				F01C05EC53F602717A0C32072EA92699 /* Pods-serviceLearning-serviceLearningUITests.release.xcconfig */,
+			);
+			name = "Pods-serviceLearning-serviceLearningUITests";
+			path = "Target Support Files/Pods-serviceLearning-serviceLearningUITests";
+			sourceTree = "<group>";
+		};
+		B14F4B2B5EFF9E4107B6DF47AEDE4FAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CDA0C5341B1E6651DEDB95FB2826E5A /* KVKCalendar.framework */,
+				0C603C8A42AC8253A4B2C92468CB3E12 /* Pods_serviceLearning.framework */,
+				74715B4E710C67427A047C01347BCD9B /* Pods_serviceLearning_serviceLearningUITests.framework */,
+				9F34298FD5EFB811D0F0D2607C96222D /* Pods_serviceLearningTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B581B86E96333061307D14D15325712C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA87C4C248A550CC6433DB29DFB62E1B /* KVKCalendar.modulemap */,
+				3DA43664BDCC313F12D58EC05440E464 /* KVKCalendar.xcconfig */,
+				6029C92796A13FEB557BBF79FBFFE5B0 /* KVKCalendar-dummy.m */,
+				C1B5B7E0F2964798B1A4FBC6FE114FA8 /* KVKCalendar-Info.plist */,
+				D6C8715EB3E1904D9C8DC94202C98095 /* KVKCalendar-prefix.pch */,
+				BF8771BF517DD11C705D164F53AA8B5D /* KVKCalendar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KVKCalendar";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C29642B59A4F32F42975E01D6EC4F050 /* Pods-serviceLearning */ = {
+			isa = PBXGroup;
+			children = (
+				40481A701F9EEE96AAEFA547707A1F3F /* Pods-serviceLearning.modulemap */,
+				0A3BF8FA03B96FD5BCBA4392E152297B /* Pods-serviceLearning-acknowledgements.markdown */,
+				09EDFF622250152A66BD1255296BD2FD /* Pods-serviceLearning-acknowledgements.plist */,
+				9DE308726E1F98F4C95CAF016E9A5760 /* Pods-serviceLearning-dummy.m */,
+				7AF679EA2EB9473A86E8014C6194FC0F /* Pods-serviceLearning-frameworks.sh */,
+				49A06A2D424037C430C00415CF6A5E77 /* Pods-serviceLearning-Info.plist */,
+				2EA91DCCD1ED9E6824B13BBDACB0BA81 /* Pods-serviceLearning-umbrella.h */,
+				99A05E81B8BBD9C909BEAE5603A2098C /* Pods-serviceLearning.debug.xcconfig */,
+				2A3A46C2DB5D47E6D688892979B100CA /* Pods-serviceLearning.release.xcconfig */,
+			);
+			name = "Pods-serviceLearning";
+			path = "Target Support Files/Pods-serviceLearning";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3BFFDBF9119D837BE4923AEC64279A43 /* Pods */,
+				B14F4B2B5EFF9E4107B6DF47AEDE4FAF /* Products */,
+				6FC8AA465400D790986F3A85A62A93B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C3505B48961712C502DE80C6E827C35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78702920DF680A5C15500A0B3764A737 /* Pods-serviceLearningTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802484E5B0A5F162865E46AD44EBC717 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C4DBB20B57D76E5ECF975D9E2621E8 /* Pods-serviceLearning-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A5C7CED7440BED2EBCB5F8E34F25F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0572DA19D4ABE9156AB92D296B2E9A2F /* Pods-serviceLearning-serviceLearningUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AAE9DFEBE46D9E147507FBD1E1AFCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00A2C8A90BEC0B888B623B0B7D41EEC /* KVKCalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13C3808B3A7A145E13C7CFA25E552BA1 /* Pods-serviceLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A9BFEB880A7C56E3841D56D73E08FB /* Build configuration list for PBXNativeTarget "Pods-serviceLearning" */;
+			buildPhases = (
+				802484E5B0A5F162865E46AD44EBC717 /* Headers */,
+				7590E337F57F05C6B8F7EF8C06B3D49A /* Sources */,
+				73CE62DB1CD3F021D2081CD28043946B /* Frameworks */,
+				83C192D8F18C85EC175AE8A9C8C91061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92BB5030E0CF7CAB98184AC3F70524C3 /* PBXTargetDependency */,
+			);
+			name = "Pods-serviceLearning";
+			productName = "Pods-serviceLearning";
+			productReference = 0C603C8A42AC8253A4B2C92468CB3E12 /* Pods_serviceLearning.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F0E8BD1B0523F327122D41C5831D7D6 /* Pods-serviceLearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF22CAA3F6672DEFBB4AE1876866B56 /* Build configuration list for PBXNativeTarget "Pods-serviceLearningTests" */;
+			buildPhases = (
+				5C3505B48961712C502DE80C6E827C35 /* Headers */,
+				66A5C5F3030BB67E9D088AA92EAD7D8D /* Sources */,
+				D47D55FF39584DF943BFA2F824B0E68B /* Frameworks */,
+				20DAAF3C012A364E35B1443ADF15E760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E7C5B3B8DE24D4E7F4307C2109171D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-serviceLearningTests";
+			productName = "Pods-serviceLearningTests";
+			productReference = 9F34298FD5EFB811D0F0D2607C96222D /* Pods_serviceLearningTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C8627CB6D8E7BCF51A7504F548575BC /* KVKCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D7F7456C2EF52B9E6D5917A92406084 /* Build configuration list for PBXNativeTarget "KVKCalendar" */;
+			buildPhases = (
+				A6AAE9DFEBE46D9E147507FBD1E1AFCB /* Headers */,
+				97546F9B2ABCD95EEF3FDD95A8D634CF /* Sources */,
+				07E3C7A35C8B3B4EFFB67E1A5FAF959F /* Frameworks */,
+				98A5BFA22591C7E53B3242BB652CAAC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVKCalendar;
+			productName = KVKCalendar;
+			productReference = 3CDA0C5341B1E6651DEDB95FB2826E5A /* KVKCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8E1A5B7FC27B6F8FF2DDE40F0E45351 /* Pods-serviceLearning-serviceLearningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02574F9E0BBB920851866288CAF2192C /* Build configuration list for PBXNativeTarget "Pods-serviceLearning-serviceLearningUITests" */;
+			buildPhases = (
+				80A5C7CED7440BED2EBCB5F8E34F25F4 /* Headers */,
+				8AEEC0C623512DB1788F69FA712DBAD2 /* Sources */,
+				2A6C84FC6645975309C824A8E2E99878 /* Frameworks */,
+				04CEA2F361E0DBCE8B3C737CB5F3E7F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77A98EAF73032489ECC0B589FD8145C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-serviceLearning-serviceLearningUITests";
+			productName = "Pods-serviceLearning-serviceLearningUITests";
+			productReference = 74715B4E710C67427A047C01347BCD9B /* Pods_serviceLearning_serviceLearningUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B14F4B2B5EFF9E4107B6DF47AEDE4FAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C8627CB6D8E7BCF51A7504F548575BC /* KVKCalendar */,
+				13C3808B3A7A145E13C7CFA25E552BA1 /* Pods-serviceLearning */,
+				D8E1A5B7FC27B6F8FF2DDE40F0E45351 /* Pods-serviceLearning-serviceLearningUITests */,
+				3F0E8BD1B0523F327122D41C5831D7D6 /* Pods-serviceLearningTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CEA2F361E0DBCE8B3C737CB5F3E7F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DAAF3C012A364E35B1443ADF15E760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C192D8F18C85EC175AE8A9C8C91061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A5BFA22591C7E53B3242BB652CAAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66A5C5F3030BB67E9D088AA92EAD7D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D40ADE789A61424C72DB9A858D46869 /* Pods-serviceLearningTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7590E337F57F05C6B8F7EF8C06B3D49A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCC843EE8F8F40A1B8BDBE2910B71E6 /* Pods-serviceLearning-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEEC0C623512DB1788F69FA712DBAD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3ED917A314D581C6C47093C090B5D98 /* Pods-serviceLearning-serviceLearningUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97546F9B2ABCD95EEF3FDD95A8D634CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201DF9CD39797CFA764621028670265E /* AllDayEventView.swift in Sources */,
+				F497F7388E31145CBF6B4DC15941F8FF /* Calendar+Extension.swift in Sources */,
+				BDFC91D6CC4D87A97D8CE370307C420B /* CalendarView.swift in Sources */,
+				102BD5D98CB13D3A2E9B25534EC1FAFD /* Date+Extension.swift in Sources */,
+				87D3B121D7ED8EF5646CD51E363D21E0 /* DayData.swift in Sources */,
+				7D3817CBE91BDC372D7CD49301A7CB88 /* DayViewCalendar.swift in Sources */,
+				D6E7C024AFB03C863BE3DB42B98C9B11 /* EventPageView.swift in Sources */,
+				C7D6CA4B206C549F3B4C6C44F26B9BBB /* KVKCalendar-dummy.m in Sources */,
+				16BA0B74C491099680AD6262DFFE300F /* MonthCollectionViewCell.swift in Sources */,
+				59596AF3755EFA6C1C07311234635D30 /* MonthData.swift in Sources */,
+				ABA1D42F31D30FA0E3AEF85871468D20 /* MonthViewCalendar.swift in Sources */,
+				72639E29B003A63060B2968FCEEED60E /* ScrollDayHeaderView.swift in Sources */,
+				B08A757758278DDD298B13C9691D4821 /* ScrollHeaderDayCollectionViewCell.swift in Sources */,
+				B44B02C5E38C0303B0B78B4C07A8DE2E /* Style.swift in Sources */,
+				288787D082A539320E6986077D7F17B5 /* TimelineLabel.swift in Sources */,
+				5FF04B0165B6903D699F7F19FEF1E0FD /* TimelineView.swift in Sources */,
+				5077B36411EF3B34A7366A97ED70FE7F /* WeekData.swift in Sources */,
+				DF2680AD0DDF5BDFDAA4C1331AE8A198 /* WeekHeaderView.swift in Sources */,
+				6955B7EDCCD3AF2764ED80BE23E2C94E /* WeekViewCalendar.swift in Sources */,
+				75DC0710C3C2E2F96018FA804DE77C88 /* YearCollectionViewCell.swift in Sources */,
+				C4BC029C181474D7E044438EE40B34C7 /* YearData.swift in Sources */,
+				E5AB6B18086CE4068CE2EB914AAC2424 /* YearHeaderView.swift in Sources */,
+				45E9B7BBD9B14661523EAA3EE80B811A /* YearViewCalendar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E7C5B3B8DE24D4E7F4307C2109171D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-serviceLearning";
+			target = 13C3808B3A7A145E13C7CFA25E552BA1 /* Pods-serviceLearning */;
+			targetProxy = 59416A5555104E37BC730E74AFA509BD /* PBXContainerItemProxy */;
+		};
+		77A98EAF73032489ECC0B589FD8145C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVKCalendar;
+			target = 7C8627CB6D8E7BCF51A7504F548575BC /* KVKCalendar */;
+			targetProxy = 2E3B5B3D88A3909B4523376326E7034D /* PBXContainerItemProxy */;
+		};
+		92BB5030E0CF7CAB98184AC3F70524C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVKCalendar;
+			target = 7C8627CB6D8E7BCF51A7504F548575BC /* KVKCalendar */;
+			targetProxy = 4D473B457F7BDE01028FA8A313D979EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31F3AD9839D599830F181260E45C7E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DA43664BDCC313F12D58EC05440E464 /* KVKCalendar.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KVKCalendar/KVKCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVKCalendar/KVKCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KVKCalendar/KVKCalendar.modulemap";
+				PRODUCT_MODULE_NAME = KVKCalendar;
+				PRODUCT_NAME = KVKCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49B75467A46D8327E6ACEE5A18CA3AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7CE3BE78A012B0C16B99E7132EDAB66 /* Pods-serviceLearning-serviceLearningUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-serviceLearning-serviceLearningUITests/Pods-serviceLearning-serviceLearningUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-serviceLearning-serviceLearningUITests/Pods-serviceLearning-serviceLearningUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		518F275B2EDF3CA95231F17AF2A5F7EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A05E81B8BBD9C909BEAE5603A2098C /* Pods-serviceLearning.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-serviceLearning/Pods-serviceLearning-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-serviceLearning/Pods-serviceLearning.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		926A8245E55A4017F3644266A3DD5448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01C05EC53F602717A0C32072EA92699 /* Pods-serviceLearning-serviceLearningUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-serviceLearning-serviceLearningUITests/Pods-serviceLearning-serviceLearningUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-serviceLearning-serviceLearningUITests/Pods-serviceLearning-serviceLearningUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B37021633823DF2A9C21798B6E3757E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3A46C2DB5D47E6D688892979B100CA /* Pods-serviceLearning.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-serviceLearning/Pods-serviceLearning-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-serviceLearning/Pods-serviceLearning.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D799409CDE14F0B9E2FCC923480D3DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA5229605CF649B53946D1EC884F912 /* Pods-serviceLearningTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-serviceLearningTests/Pods-serviceLearningTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-serviceLearningTests/Pods-serviceLearningTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E11F930B1190AAFEA112352A35465ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8FBFB02469D38BF9B69ACB665DCEEB /* Pods-serviceLearningTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-serviceLearningTests/Pods-serviceLearningTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-serviceLearningTests/Pods-serviceLearningTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3CAD3ECC110A35C70EAEA9D51000709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DA43664BDCC313F12D58EC05440E464 /* KVKCalendar.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KVKCalendar/KVKCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVKCalendar/KVKCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KVKCalendar/KVKCalendar.modulemap";
+				PRODUCT_MODULE_NAME = KVKCalendar;
+				PRODUCT_NAME = KVKCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02574F9E0BBB920851866288CAF2192C /* Build configuration list for PBXNativeTarget "Pods-serviceLearning-serviceLearningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B75467A46D8327E6ACEE5A18CA3AE1 /* Debug */,
+				926A8245E55A4017F3644266A3DD5448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A9BFEB880A7C56E3841D56D73E08FB /* Build configuration list for PBXNativeTarget "Pods-serviceLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518F275B2EDF3CA95231F17AF2A5F7EE /* Debug */,
+				B37021633823DF2A9C21798B6E3757E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D7F7456C2EF52B9E6D5917A92406084 /* Build configuration list for PBXNativeTarget "KVKCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CAD3ECC110A35C70EAEA9D51000709 /* Debug */,
+				31F3AD9839D599830F181260E45C7E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF22CAA3F6672DEFBB4AE1876866B56 /* Build configuration list for PBXNativeTarget "Pods-serviceLearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11F930B1190AAFEA112352A35465ACF /* Debug */,
+				D799409CDE14F0B9E2FCC923480D3DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
